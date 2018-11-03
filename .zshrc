@@ -32,6 +32,10 @@ else
   export EDITOR='mvim'
 fi
 
+# vim
+# alias vim='/usr/local/Cellar/vim'
+export PATH="/usr/local/Cellar/vim:$PATH"
+
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
