@@ -16,7 +16,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # git plugin WIKI: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git
-plugins=(git)
+plugins=(bundler git)
 
 source $ZSH/oh-my-zsh.sh
 
