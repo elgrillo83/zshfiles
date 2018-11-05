@@ -32,10 +32,13 @@ else
   export EDITOR='mvim'
 fi
 
-# vim
-# alias vim='/usr/local/Cellar/vim'
-export PATH="/usr/local/Cellar/vim:$PATH"
+# mysql (Prefer mysql@5.7)
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# vim
+# alias vim='/usr/local/Cellar/vim'
+export PATH="/usr/local/Cellar/vim:$PATH"
