@@ -47,3 +47,4 @@ eval "$(rbenv init -)"
 # vim
 # alias vim='/usr/local/Cellar/vim'
 export PATH="/usr/local/Cellar/vim:$PATH"
+export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
