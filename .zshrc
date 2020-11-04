@@ -48,3 +48,7 @@ eval "$(rbenv init -)"
 # alias vim='/usr/local/Cellar/vim'
 export PATH="/usr/local/Cellar/vim:$PATH"
 export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+
+# ruby
+# NOTE: Ignore Ruby 2.7 deprecation and experimental warnings
+export RUBYOPT='-W:no-deprecated -W:no-experimental'
