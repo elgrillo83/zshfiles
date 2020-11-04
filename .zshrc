@@ -52,3 +52,6 @@ export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
 # ruby
 # NOTE: Ignore Ruby 2.7 deprecation and experimental warnings
 export RUBYOPT='-W:no-deprecated -W:no-experimental'
+
+# flutter
+export PATH="$PATH:~/Code/flutter/bin"
