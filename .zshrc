@@ -64,4 +64,5 @@ export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 export RUBYOPT='-W:no-deprecated -W:no-experimental'
 
 # flutter
-export PATH="$PATH:~/Code/flutter/bin"
+export PATH="$PATH:$HOME/Code/flutter/bin"
+
