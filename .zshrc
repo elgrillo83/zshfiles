@@ -54,7 +54,10 @@ export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 # vim
 # alias vim='/usr/local/Cellar/vim'
 export PATH="/usr/local/Cellar/vim:$PATH"
-export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+
+# postgresql
+# export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
 # ruby
 # NOTE: Ignore Ruby 2.7 deprecation and experimental warnings
