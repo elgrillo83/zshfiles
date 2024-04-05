@@ -73,3 +73,6 @@ HEROKU_AC_ZSH_SETUP_PATH=/Users/tgrashei/Library/Caches/heroku/autocomplete/zsh_
 export PATH="/opt/homebrew/bin:$PATH"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# GPG
+export GPG_TTY=$(tty)
+
