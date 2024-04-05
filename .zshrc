@@ -69,3 +69,7 @@ export PATH="$PATH:$HOME/Code/flutter/bin"
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/Users/tgrashei/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
 
+# brew
+export PATH="/opt/homebrew/bin:$PATH"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
