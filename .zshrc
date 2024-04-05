@@ -66,3 +66,6 @@ export RUBYOPT='-W:no-deprecated -W:no-experimental'
 # flutter
 export PATH="$PATH:$HOME/Code/flutter/bin"
 
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/Users/tgrashei/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
+
